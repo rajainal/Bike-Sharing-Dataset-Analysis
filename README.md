@@ -40,8 +40,8 @@ The results of this bicycle rental data analysis can produce new insights for de
 https://colab.google/
 ```
 3. Add dashboard.py to Files
-   - Click **Files** in the left navbar
-   - New menu will show up, click **Upload to session storage** button at the top of the menu. button position on the far left
+   - Click **"Files"** in the left navbar
+   - New menu will show up, click **"Upload to session storage"** button at the top of the menu. button position on the far left
    - Choose dashboard.py then upload it
 4. Streamlit Installation
 ```
@@ -65,5 +65,5 @@ External URL: http://35.245.128.170:8501
 npx: installed 22 in 3.078s
 your url is: https://stupid-adults-melt.loca.lt ----------------> this is the link, click this link
 ```
-7. Paste the Tunnel Password to **Tunnel Password:**
-8. Click **Click to Submit**, there you go
+7. Paste the Tunnel Password to **"Tunnel Password:"**
+8. Click **"Click to Submit"**, there you go

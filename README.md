@@ -34,8 +34,8 @@ The results of this bicycle rental data analysis can produce new insights for de
 
 ## How to Run dashboard.py file
 
-1. Download dashboard.py in Dashboard Folder
-2. Go to Google Colab in your browser
+1. Download dashboard.py in **"dashboard"** folder
+2. Go to Google Colab in your browser and create new notebook
 ```
 https://colab.google/
 ```
@@ -47,7 +47,7 @@ https://colab.google/
 ```
 !pip install streamlit
 ```
-5. Get Tunnel Password
+5. Get tunnel password
 ```
 ! wget -q -O - ipv4.icanhazip.com
 ```

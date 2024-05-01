@@ -32,7 +32,7 @@ The results of this bicycle rental data analysis can produce new insights for de
 - registered: count of registered users
 - cnt: count of total rental bikes including both casual and registered
 
-## How to Run Dashboard file
+## How to Run dashboard.py file
 
 1. Download dashboard.py in Dashboard Folder
 2. Go to Google Colab in your browser

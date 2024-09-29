@@ -2,8 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-from PIL import Image
-sns.set(style='dark')
 
 day_df = pd.read_csv("https://raw.githubusercontent.com/rajainal/Bike-Sharing-Dataset-Analysis/main/dashboard/day_clean.csv")
 hour_df = pd.read_csv("https://raw.githubusercontent.com/rajainal/Bike-Sharing-Dataset-Analysis/main/dashboard/hour_clean.csv")
@@ -98,7 +96,6 @@ min_date = min(day_df[datetime_column].min(), hour_df[datetime_column].min())
 max_date = max(day_df[datetime_column].max(), hour_df[datetime_column].max())
 
 with st.sidebar:
-    #image = Image.open("/content/logo.png")
     st.image("https://raw.githubusercontent.com/rajainal/Bike-Sharing-Dataset-Analysis/main/dashboard/logo.png")
     
     start_date, end_date = st.date_input(
